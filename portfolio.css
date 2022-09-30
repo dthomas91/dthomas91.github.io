@@ -20,6 +20,26 @@ i:hover {
 
 .intro-wrapper {
   background-color: #B9B7BD;
+  padding: 8px 0 8px 15px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-wrapper-name {
+  padding: 8px 0 8px 0
+}
+
+.intro-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.intro-wrapper-title {
+  padding: 8px 0 8px 0;
+  font-size: 18px;
+  
 }
 
 .about-wrapper {
