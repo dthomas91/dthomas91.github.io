@@ -4,18 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/portfolio.css">
+  <script src="https://kit.fontawesome.com/b646790a21.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
+<header class="header-wrapper">
+  <a href="https://www.linkedin.com/in/david-thomas-856410166/"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://github.com/dthomas91"><i class="fa-brands fa-github"></i></a>
+</header>
 <body>
-  <div>
+  <div class="intro-wrapper" onclick="hi()">
     <h1>David Thomas</h1>
     <h3>Full Stack Developer</h3>
   </div>
-  <div>
+  <div class="about-wrapper">
     <h1>About</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores placeat similique error vero sequi velit id dolore odio nobis voluptatibus? Modi officia cum distinctio dolore blanditiis culpa quia ea doloremque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex blanditiis laborum quia natus saepe tenetur, eligendi recusandae eum nulla distinctio odio quidem corporis, reiciendis temporibus illo. Repellat recusandae enim explicabo!</p>
   </div>
-  <div>
+  <div class="projects-wrapper">
     <h1>Projects</h1>
     <table>
       <tr>
@@ -25,7 +31,7 @@
       </tr>
     </table>
   </div>
-  <div>
+  <div class="contact-wrapper">
     <h1>Contact</h1>
     <form>
       <label for="fname">Email</label><br>
@@ -34,5 +40,7 @@
       <input type="text" id="lname" name="lname">
     </form>
   </div>
+  <script src="/portfolio.js"></script>
+  
 </body>
 </html>

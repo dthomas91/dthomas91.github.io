@@ -1,0 +1,35 @@
+* {
+  margin: auto;
+  
+}
+.header-wrapper {
+  background-color: #868B8E;
+  margin: auto;
+  padding: 8px 0 8px 15px
+}
+
+i {
+font-size: 35px;
+margin: 0 8px 0 8px;
+color: #EEEDE7;
+}
+
+i:hover {
+  color: orange;
+}
+
+.intro-wrapper {
+  background-color: #B9B7BD;
+}
+
+.about-wrapper {
+  background-color: #E7D2CC;
+}
+
+.projects-wrapper {
+  background-color: #B9B7BD;
+}
+
+.contact-wrapper {
+  background-color: #EEEDE7;
+}
