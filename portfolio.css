@@ -66,10 +66,16 @@ i:hover {
 
 .about-wrapper {
   background-color: #adc0b4;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects-wrapper {
   background-color: #b7c7bc;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-wrapper {
