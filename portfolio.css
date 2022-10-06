@@ -69,6 +69,7 @@ i:hover {
 }
 
 .about-wrapper {
+  padding: 8px 0 8px 0;
   background-color: #adc0b4;
   justify-content: center;
   display: flex;
@@ -82,9 +83,32 @@ i:hover {
   flex-direction: column;
 }
 
+.projects_section {
+  padding-top: 8px;
+}
+
+.project-image-wrapper {
+  display: flex;
+  flex-direction: flex;
+}
+
+.project1-image {
+  padding: 8px 0 8px 0;
+  height: auto;
+  width: 25%;
+}
+
+.project2-image {
+  padding: 8px 0 8px 0;
+  height: auto;
+  width: 25%;
+}
+
+
 .contact-wrapper {
   background-color: #c0cfc5;
-  padding-bottom: 50px;
+  padding: 8px 0 8px 0;
+  margin-bottom: 18px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -97,4 +121,13 @@ i:hover {
 
 .submit-button {
   margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-wrapper {
+  border: solid black 1.5px;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  text-align: left;
+  vertical-align: center;
 }
