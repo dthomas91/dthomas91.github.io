@@ -1,11 +1,35 @@
 * {
   margin: auto;
-  
 }
+
+body {
+  background-color: #c0cfc5;
+}
+
+/* Header Start */
+
 .header-wrapper {
-  background-color: #868B8E;
-  margin: auto;
-  padding: 8px 0 8px 15px
+  background-color: #9ab1a2;
+  padding: 8px 0 0 15px;
+  margin-bottom: -10px;
+}
+
+.header-sections {
+  text-align: right;
+  font-size: 18px;
+  margin-left: 50%;
+  position: relative; top: -27px;
+  padding-right: 15px;
+}
+
+.jump-to {
+  text-decoration: none;
+  color: #EEEDE7;
+  padding: 0 10px 0 10px;
+}
+
+.jump-to:hover {
+  color: orange;
 }
 
 i {
@@ -18,18 +42,59 @@ i:hover {
   color: orange;
 }
 
+/* Header End */
+
 .intro-wrapper {
-  background-color: #B9B7BD;
+  background-color: #a3b9ab;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-wrapper-name {
+  padding: 18px 0 18px 0;
+  font-size: 35px;
+}
+
+.intro-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.intro-wrapper-title {
+  padding: 8px 0 8px 0;
+  font-size: 18px;
+  
 }
 
 .about-wrapper {
-  background-color: #E7D2CC;
+  background-color: #adc0b4;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects-wrapper {
-  background-color: #B9B7BD;
+  background-color: #b7c7bc;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-wrapper {
-  background-color: #EEEDE7;
+  background-color: #c0cfc5;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.message {
+  height: 90px;
+  width: 250px;
+}
+
+.submit-button {
+  margin-top: 8px;
 }
