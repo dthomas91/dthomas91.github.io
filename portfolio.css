@@ -1,6 +1,9 @@
 * {
   margin: auto;
-  
+}
+
+body {
+  background-color: #c0cfc5;
 }
 
 /* Header Start */
@@ -82,4 +85,16 @@ i:hover {
 .contact-wrapper {
   background-color: #c0cfc5;
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.message {
+  height: 90px;
+  width: 250px;
+}
+
+.submit-button {
+  margin-top: 8px;
 }
