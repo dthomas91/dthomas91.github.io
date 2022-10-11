@@ -69,32 +69,75 @@ i:hover {
 }
 
 .about-wrapper {
+  padding: 8px 0 8px 0;
   background-color: #adc0b4;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  padding-left: 15px;
 }
 
 .projects-wrapper {
   background-color: #b7c7bc;
   justify-content: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
+.projects_section h1 {
+  padding: 8px 0 8px 0;
+  background-color: #b7c7bc;
+  text-align: center;
+}
+
+.project-image-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 15px;
+}
+
+.project-image-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.project1-image {
+  padding: 8px 0 8px 0;
+  height: 200px;
+  width: 300px;
+}
+
+.project2-image {
+  padding: 8px 0 8px 0;
+  height: 200px;
+  width: 300px;
+}
+
 
 .contact-wrapper {
   background-color: #c0cfc5;
-  padding-bottom: 50px;
+  padding: 8px 0 8px 0;
+  margin-bottom: 18px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.message {
-  height: 90px;
-  width: 250px;
+textarea {
+  height: 150px;
 }
 
 .submit-button {
   margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-wrapper {
+  border: solid black 1.5px;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  text-align: left;
+  vertical-align: center;
 }

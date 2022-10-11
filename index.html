@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/portfolio.css">
   <script src="https://kit.fontawesome.com/b646790a21.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>David Thomas</title>
 </head>
+
+<!-- Start of header -->
 <header class="header-wrapper">
   <a href="https://www.linkedin.com/in/david-thomas-856410166/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
   <a href="https://github.com/dthomas91" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -17,36 +19,54 @@
     <a class="jump-to" href="#contact_section">Contact</a>
   </div>
 </header>
+<!-- End of header -->
+
+<!-- Start of intro -->
 <body>
   <div class="intro-wrapper" onclick="hi()">
     <h1 class="intro-wrapper-name">David Thomas</h1>
     <img class="intro-image" src="/images/david.jpeg">
     <h3 class="intro-wrapper-title">Full Stack Developer</h3>
   </div>
+<!-- End of intro -->
+
+<!-- Start of about -->
   <div class="about-wrapper">
     <a id="about_section"><h1>About</h1></a>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores placeat similique error vero sequi velit id dolore odio nobis voluptatibus? Modi officia cum distinctio dolore blanditiis culpa quia ea doloremque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex blanditiis laborum quia natus saepe tenetur, eligendi recusandae eum nulla distinctio odio quidem corporis, reiciendis temporibus illo. Repellat recusandae enim explicabo!</p>
   </div>
+  <!-- End of about -->
+
+  <!-- Start of projects -->
+  <a class="projects_section"><h1>Projects</h1></a>
   <div class="projects-wrapper">
-    <a id="projects_section"><h1>Projects</h1></a>
-    <table>
-      <tr>
-        <td>Project 1</td>
-        <td>Project 2</td>
-        <td>Project 3</td>
-      </tr>
-    </table>
+    <div class="project-image-wrapper1">
+      <img class="project1-image" src="/images/piglatin.png">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quas illum veniam earum ratione, natus cumque in! Sapiente, pariatur quas modi cumque animi totam commodi eius id. Sequi, nam maiores!</p>
+    </div>
+    <div class="project-image-wrapper2">
+      <img class="project2-image" src="/images/textgame.png">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quas illum veniam earum ratione, natus cumque in! Sapiente, pariatur quas modi cumque animi totam commodi eius id. Sequi, nam maiores!</p>
+    </div>  
   </div>
+  <!-- End of projects -->
+
+  <!-- Start of contact -->
   <div class="contact-wrapper">
     <a id="contact_section"><h1>Contact</h1></a>
     <form>
       <label for="fname">Email</label><br>
       <input type="text" id="fname" name="fname"><br>
       <label for="lname">Message</label><br>
-      <input class="message" type="text" id="lname" name="lname">
+      <!-- <input class="message" type="text" id="lname" name="lname"> -->
+      <textarea row="60" cols="50"></textarea>
     </form>
     <button type="submit" class="submit-button">Send</button>
   </div>
+  <!-- End of contact -->
+
+  
+  <footer class="footer-wrapper">© David Thomas</footer>
   <script src="/portfolio.js"></script>
   
 </body>
