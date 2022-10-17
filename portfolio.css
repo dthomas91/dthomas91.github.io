@@ -44,6 +44,10 @@ i:hover {
 
 /* Header End */
 
+p {
+  text-indent: 20px;
+}
+
 .intro-wrapper {
   background-color: #a3b9ab;
   justify-content: center;
@@ -76,6 +80,10 @@ i:hover {
   flex-direction: column;
 }
 
+#about_section {
+  margin: 8px, 0, 8px 0;
+}
+
 .projects-wrapper {
   background-color: #b7c7bc;
   justify-content: center;
@@ -99,13 +107,23 @@ i:hover {
 
 .pig-latin-link {
   text-decoration: none;
+  margin-top: -50px;
 }
 
+.project-1-paragraph {
+  padding-right: 25px;
+  margin-top: -25px;
+}
 
 .project-image-wrapper2 {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+.project-2-paragraph {
+  padding-right: 25px;
+  margin-top: -5px;
 }
 
 .project1-image {
