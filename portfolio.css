@@ -44,6 +44,10 @@ i:hover {
 
 /* Header End */
 
+p {
+  text-indent: 20px;
+}
+
 .intro-wrapper {
   background-color: #a3b9ab;
   justify-content: center;
@@ -57,8 +61,8 @@ i:hover {
 }
 
 .intro-image {
-  height: 100px;
-  width: 100px;
+  height: 175px;
+  width: 175px;
   border-radius: 50%;
 }
 
@@ -69,12 +73,15 @@ i:hover {
 }
 
 .about-wrapper {
-  padding: 8px 0 8px 0;
+  padding: 8px 0 15px 15px;
   background-color: #adc0b4;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
+}
+
+#about_section {
+  margin: 8px, 0, 8px 0;
 }
 
 .projects-wrapper {
@@ -82,6 +89,7 @@ i:hover {
   justify-content: center;
   display: flex;
   flex-direction: row;
+  padding-bottom: 15px;
 }
 
 .projects_section_class h1 {
@@ -97,10 +105,25 @@ i:hover {
   padding-left: 15px;
 }
 
+.pig-latin-link {
+  text-decoration: none;
+  margin-top: -50px;
+}
+
+.project-1-paragraph {
+  padding-right: 25px;
+  margin-top: -25px;
+}
+
 .project-image-wrapper2 {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+.project-2-paragraph {
+  padding-right: 25px;
+  margin-top: -5px;
 }
 
 .project1-image {
@@ -136,8 +159,7 @@ textarea {
 
 .footer-wrapper {
   border: solid black 1.5px;
-  padding-bottom: 8px;
-  padding-top: 4px;
+  padding: 4px 0 8px 15px;
   text-align: left;
   vertical-align: center;
 }
