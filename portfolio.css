@@ -111,8 +111,8 @@ p {
 }
 
 .project-1-paragraph {
-  padding-right: 25px;
-  margin-top: -25px;
+  margin: -40px 40px 0 60px;
+  text-align: center;
 }
 
 .project-image-wrapper2 {
@@ -122,8 +122,9 @@ p {
 }
 
 .project-2-paragraph {
-  padding-right: 25px;
-  margin-top: -5px;
+  padding-right: 10px;
+  margin: -30px 40px 0 60px;
+  text-align: center;
 }
 
 .project1-image {
