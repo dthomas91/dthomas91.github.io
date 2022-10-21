@@ -40,6 +40,8 @@ color: #EEEDE7;
 
 i:hover {
   color: orange;
+  transform: scale(1.5);
+  margin-top: 8px;
 }
 
 /* Header End */
@@ -53,6 +55,7 @@ p {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .intro-wrapper-name {
@@ -73,7 +76,7 @@ p {
 }
 
 .about-wrapper {
-  padding: 8px 0 15px 15px;
+  padding: 8px 0 100px 15px;
   background-color: #adc0b4;
   justify-content: center;
   display: flex;
@@ -84,12 +87,16 @@ p {
   margin: 8px, 0, 8px 0;
 }
 
+.projects_section_class {
+  margin: 8px 0 15px 0;
+}
+
 .projects-wrapper {
   background-color: #b7c7bc;
   justify-content: center;
   display: flex;
   flex-direction: row;
-  padding-bottom: 15px;
+  padding: 8px 0 100px 0;
 }
 
 .projects_section_class h1 {
@@ -101,29 +108,33 @@ p {
 .project-image-wrapper1 {
   display: flex;
   flex-direction: column;
-  gap: 50px;
   padding-left: 15px;
 }
 
 .pig-latin-link {
   text-decoration: none;
-  margin-top: -50px;
+}
+
+.project1-image:hover {
+  transform: scale(1.25);
+  padding: 20px 0 20px 0;
+  margin-top: 40px;
+  cursor: pointer;
 }
 
 .project-1-paragraph {
-  margin: -40px 40px 0 60px;
+  margin: 15px 40px 0 60px;
   text-align: center;
 }
 
 .project-image-wrapper2 {
   display: flex;
   flex-direction: column;
-  gap: 50px;
 }
 
 .project-2-paragraph {
   padding-right: 10px;
-  margin: -30px 40px 0 60px;
+  margin: 15px 40px 0 60px;
   text-align: center;
 }
 
